@@ -75,9 +75,11 @@ label{
     vertical-align: middle;
 }
   
-.textarea{
+textarea{
+    min-height: 50px;
     width: 100%;
-}
+    resize: vertical;
+  }
   
 input[type="submit"]{
     display: block;
